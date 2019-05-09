@@ -16,6 +16,11 @@ class ViewController: UIViewController, LoginButtonDelegate {
     // When a login occurs
     func loginButton(_ loginButton: FBLoginButton, didCompleteWith result: LoginManagerLoginResult?, error: Error?) {
         if error == nil {
+            // Check if the user cancel the loggin
+            if result?.isCancelled ?? false {
+                print("Cancelled")
+                return
+            }
             // If there wasnt any errors start the auth with firebase
             let credential = FacebookAuthProvider.credential(withAccessToken: AccessToken.current!.tokenString)
             Auth.auth().signInAndRetrieveData(with: credential) { (authResult, error) in
