@@ -7,14 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550795FC228389FB0089FBF3 /* TVCAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550795FB228389FB0089FBF3 /* TVCAnimal.swift */; };
+		5563754C2283EFC600D543A1 /* TVCPlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563754B2283EFC600D543A1 /* TVCPlant.swift */; };
+		5563754E2283F6B100D543A1 /* TVCInsect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563754D2283F6B100D543A1 /* TVCInsect.swift */; };
+		556BFDA22282790500D028FD /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = 556BFDA12282790500D028FD /* google.png */; };
+		556BFDA42282793900D028FD /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 556BFDA32282793900D028FD /* twitter.png */; };
+		556BFDAC22827A9500D028FD /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 556BFDAB22827A9500D028FD /* facebook.png */; };
+		556BFDAE22827B3B00D028FD /* nature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556BFDAD22827B3B00D028FD /* nature.jpg */; };
+		556BFDBA2282B54600D028FD /* animal.png in Resources */ = {isa = PBXBuildFile; fileRef = 556BFDB92282B54600D028FD /* animal.png */; };
+		556BFDBC2282B5B200D028FD /* plant.png in Resources */ = {isa = PBXBuildFile; fileRef = 556BFDBB2282B5B200D028FD /* plant.png */; };
+		556BFDBE2282B60200D028FD /* insect.png in Resources */ = {isa = PBXBuildFile; fileRef = 556BFDBD2282B60200D028FD /* insect.png */; };
+		556BFDC02282BD0E00D028FD /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 556BFDBF2282BD0E00D028FD /* photo.png */; };
 		55B126D322824A210049194D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B126D222824A210049194D /* AppDelegate.swift */; };
 		55B126D522824A210049194D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B126D422824A210049194D /* ViewController.swift */; };
 		55B126D822824A210049194D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B126D622824A210049194D /* Main.storyboard */; };
 		55B126DA22824A220049194D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B126D922824A220049194D /* Assets.xcassets */; };
 		55B126DD22824A220049194D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B126DB22824A220049194D /* LaunchScreen.storyboard */; };
+		55B126EB22825CF70049194D /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B126EA22825CF70049194D /* Animal.swift */; };
+		55B126ED22825D090049194D /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B126EC22825D090049194D /* Plant.swift */; };
+		55B126EF22825D1D0049194D /* Insect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B126EE22825D1D0049194D /* Insect.swift */; };
+		55B126F122825D5D0049194D /* TBCMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B126F022825D5D0049194D /* TBCMain.swift */; };
+		55B126F322825D760049194D /* VCAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B126F222825D760049194D /* VCAnimal.swift */; };
+		55B126F522825D8D0049194D /* VCAnimalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B126F422825D8D0049194D /* VCAnimalInfo.swift */; };
+		55B126F722825DA10049194D /* VCPlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B126F622825DA10049194D /* VCPlant.swift */; };
+		55B126F922825DB20049194D /* VCPlantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B126F822825DB20049194D /* VCPlantInfo.swift */; };
+		55B126FB22825DC30049194D /* VCInsect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B126FA22825DC30049194D /* VCInsect.swift */; };
+		55B126FD22825DD90049194D /* VCInsectInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B126FC22825DD90049194D /* VCInsectInfo.swift */; };
+		55B126FF22825F7A0049194D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55B126FE22825F790049194D /* GoogleService-Info.plist */; };
+		A0A2D5E9DBFAB5507F1BFE53 /* Pods_NatureApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C418234B2F398BE5DCFED2F /* Pods_NatureApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C418234B2F398BE5DCFED2F /* Pods_NatureApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NatureApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		550795FB228389FB0089FBF3 /* TVCAnimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCAnimal.swift; sourceTree = "<group>"; };
+		5563754B2283EFC600D543A1 /* TVCPlant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCPlant.swift; sourceTree = "<group>"; };
+		5563754D2283F6B100D543A1 /* TVCInsect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCInsect.swift; sourceTree = "<group>"; };
+		556BFDA12282790500D028FD /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
+		556BFDA32282793900D028FD /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		556BFDAB22827A9500D028FD /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		556BFDAD22827B3B00D028FD /* nature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nature.jpg; sourceTree = "<group>"; };
+		556BFDB92282B54600D028FD /* animal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animal.png; sourceTree = "<group>"; };
+		556BFDBB2282B5B200D028FD /* plant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plant.png; sourceTree = "<group>"; };
+		556BFDBD2282B60200D028FD /* insect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insect.png; sourceTree = "<group>"; };
+		556BFDBF2282BD0E00D028FD /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 		55B126CF22824A210049194D /* NatureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B126D222824A210049194D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55B126D422824A210049194D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +57,19 @@
 		55B126D922824A220049194D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55B126DC22824A220049194D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55B126DE22824A220049194D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B126EA22825CF70049194D /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		55B126EC22825D090049194D /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		55B126EE22825D1D0049194D /* Insect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insect.swift; sourceTree = "<group>"; };
+		55B126F022825D5D0049194D /* TBCMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBCMain.swift; sourceTree = "<group>"; };
+		55B126F222825D760049194D /* VCAnimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCAnimal.swift; sourceTree = "<group>"; };
+		55B126F422825D8D0049194D /* VCAnimalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCAnimalInfo.swift; sourceTree = "<group>"; };
+		55B126F622825DA10049194D /* VCPlant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPlant.swift; sourceTree = "<group>"; };
+		55B126F822825DB20049194D /* VCPlantInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPlantInfo.swift; sourceTree = "<group>"; };
+		55B126FA22825DC30049194D /* VCInsect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCInsect.swift; sourceTree = "<group>"; };
+		55B126FC22825DD90049194D /* VCInsectInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCInsectInfo.swift; sourceTree = "<group>"; };
+		55B126FE22825F790049194D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9ADE9EA69B89B6549C5BBFED /* Pods-NatureApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NatureApp.debug.xcconfig"; path = "Target Support Files/Pods-NatureApp/Pods-NatureApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F3D339870CD5B410E2301A74 /* Pods-NatureApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NatureApp.release.xcconfig"; path = "Target Support Files/Pods-NatureApp/Pods-NatureApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +77,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A2D5E9DBFAB5507F1BFE53 /* Pods_NatureApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		556BFD9E2282787700D028FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				556BFDBF2282BD0E00D028FD /* photo.png */,
+				556BFDBD2282B60200D028FD /* insect.png */,
+				556BFDBB2282B5B200D028FD /* plant.png */,
+				556BFDB92282B54600D028FD /* animal.png */,
+				556BFDAD22827B3B00D028FD /* nature.jpg */,
+				556BFDAB22827A9500D028FD /* facebook.png */,
+				556BFDA32282793900D028FD /* twitter.png */,
+				556BFDA12282790500D028FD /* google.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		55B126C622824A210049194D = {
 			isa = PBXGroup;
 			children = (
 				55B126D122824A210049194D /* NatureApp */,
 				55B126D022824A210049194D /* Products */,
+				A66DDCD098F6D1807ED05455 /* Pods */,
+				B77873C6DB1C0610DBDE3EB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +120,70 @@
 		55B126D122824A210049194D /* NatureApp */ = {
 			isa = PBXGroup;
 			children = (
+				556BFD9E2282787700D028FD /* Resources */,
+				55B126E722825C7F0049194D /* CellControllers */,
+				55B126E522825C510049194D /* Models */,
+				55B126E422825C2F0049194D /* ViewControllers */,
 				55B126D222824A210049194D /* AppDelegate.swift */,
-				55B126D422824A210049194D /* ViewController.swift */,
 				55B126D622824A210049194D /* Main.storyboard */,
 				55B126D922824A220049194D /* Assets.xcassets */,
 				55B126DB22824A220049194D /* LaunchScreen.storyboard */,
 				55B126DE22824A220049194D /* Info.plist */,
+				55B126FE22825F790049194D /* GoogleService-Info.plist */,
 			);
 			path = NatureApp;
+			sourceTree = "<group>";
+		};
+		55B126E422825C2F0049194D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				55B126D422824A210049194D /* ViewController.swift */,
+				55B126F022825D5D0049194D /* TBCMain.swift */,
+				55B126F222825D760049194D /* VCAnimal.swift */,
+				55B126F422825D8D0049194D /* VCAnimalInfo.swift */,
+				55B126F622825DA10049194D /* VCPlant.swift */,
+				55B126F822825DB20049194D /* VCPlantInfo.swift */,
+				55B126FA22825DC30049194D /* VCInsect.swift */,
+				55B126FC22825DD90049194D /* VCInsectInfo.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		55B126E522825C510049194D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55B126EA22825CF70049194D /* Animal.swift */,
+				55B126EC22825D090049194D /* Plant.swift */,
+				55B126EE22825D1D0049194D /* Insect.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55B126E722825C7F0049194D /* CellControllers */ = {
+			isa = PBXGroup;
+			children = (
+				550795FB228389FB0089FBF3 /* TVCAnimal.swift */,
+				5563754B2283EFC600D543A1 /* TVCPlant.swift */,
+				5563754D2283F6B100D543A1 /* TVCInsect.swift */,
+			);
+			path = CellControllers;
+			sourceTree = "<group>";
+		};
+		A66DDCD098F6D1807ED05455 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ADE9EA69B89B6549C5BBFED /* Pods-NatureApp.debug.xcconfig */,
+				F3D339870CD5B410E2301A74 /* Pods-NatureApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B77873C6DB1C0610DBDE3EB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C418234B2F398BE5DCFED2F /* Pods_NatureApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55B126E122824A220049194D /* Build configuration list for PBXNativeTarget "NatureApp" */;
 			buildPhases = (
+				C0930E2B9E576D6323113108 /* [CP] Check Pods Manifest.lock */,
 				55B126CB22824A210049194D /* Sources */,
 				55B126CC22824A210049194D /* Frameworks */,
 				55B126CD22824A210049194D /* Resources */,
+				D1A88D1E33D0B5FD4F052F49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,19 +246,102 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556BFDAE22827B3B00D028FD /* nature.jpg in Resources */,
+				556BFDA42282793900D028FD /* twitter.png in Resources */,
+				556BFDC02282BD0E00D028FD /* photo.png in Resources */,
 				55B126DD22824A220049194D /* LaunchScreen.storyboard in Resources */,
+				55B126FF22825F7A0049194D /* GoogleService-Info.plist in Resources */,
+				556BFDAC22827A9500D028FD /* facebook.png in Resources */,
+				556BFDBA2282B54600D028FD /* animal.png in Resources */,
 				55B126DA22824A220049194D /* Assets.xcassets in Resources */,
+				556BFDBC2282B5B200D028FD /* plant.png in Resources */,
+				556BFDBE2282B60200D028FD /* insect.png in Resources */,
+				556BFDA22282790500D028FD /* google.png in Resources */,
 				55B126D822824A210049194D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C0930E2B9E576D6323113108 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NatureApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A88D1E33D0B5FD4F052F49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NatureApp/Pods-NatureApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NatureApp/Pods-NatureApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55B126CB22824A210049194D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B126EF22825D1D0049194D /* Insect.swift in Sources */,
+				55B126EB22825CF70049194D /* Animal.swift in Sources */,
+				5563754E2283F6B100D543A1 /* TVCInsect.swift in Sources */,
+				55B126F122825D5D0049194D /* TBCMain.swift in Sources */,
+				55B126FD22825DD90049194D /* VCInsectInfo.swift in Sources */,
+				55B126F522825D8D0049194D /* VCAnimalInfo.swift in Sources */,
+				5563754C2283EFC600D543A1 /* TVCPlant.swift in Sources */,
+				55B126F322825D760049194D /* VCAnimal.swift in Sources */,
+				550795FC228389FB0089FBF3 /* TVCAnimal.swift in Sources */,
+				55B126F922825DB20049194D /* VCPlantInfo.swift in Sources */,
+				55B126F722825DA10049194D /* VCPlant.swift in Sources */,
+				55B126FB22825DC30049194D /* VCInsect.swift in Sources */,
+				55B126ED22825D090049194D /* Plant.swift in Sources */,
 				55B126D522824A210049194D /* ViewController.swift in Sources */,
 				55B126D322824A210049194D /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +487,7 @@
 		};
 		55B126E222824A220049194D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADE9EA69B89B6549C5BBFED /* Pods-NatureApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +505,7 @@
 		};
 		55B126E322824A220049194D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D339870CD5B410E2301A74 /* Pods-NatureApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
